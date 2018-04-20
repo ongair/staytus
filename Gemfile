@@ -31,3 +31,8 @@ gem 'log_logins'
 group :development, :test do
   gem 'annotate', '~> 2.6.5'
 end
+
+group :development do
+  gem "capistrano", "~> 3.10", require: false
+  gem "capistrano-rails", "~> 1.3", require: false
+end
